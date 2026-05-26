@@ -1,0 +1,21 @@
+Trip_ID,Booking_ID,Employee_ID,Employee_Name,Department,Cost_Center,Segment_Type,Travel_Date,Origin_Airport_Code,Destination_Airport_Code,Cabin_Class,Cabin_Class_Code,Airline_Code,Flight_Number,Ticket_Cost_USD,Check_In_Date,Check_Out_Date,Nights,Hotel_Name,City,Country,Nightly_Rate_USD,Total_Cost_USD,Vehicle_Type,Miles_Driven,Vendor_Name
+TRIP-2024-001,BK-100001,EMP-0441,Sarah Johnson,Sales,CC-8810,AIR,2024-01-15,ORD,LHR,Business,J,BA,BA296,4218.50,,,,,,,,,,
+TRIP-2024-001,BK-100002,EMP-0441,Sarah Johnson,Sales,CC-8810,HOTEL,,,,,,,,,2024-01-15,2024-01-18,3,The Savoy,London,GB,485.00,1455.00,,,The Savoy Hotel
+TRIP-2024-001,BK-100003,EMP-0441,Sarah Johnson,Sales,CC-8810,AIR,2024-01-18,LHR,ORD,Business,J,BA,BA295,4218.50,,,,,,,,,,
+TRIP-2024-002,BK-100004,EMP-0892,Marcus Lee,Engineering,CC-7720,AIR,2024-01-22,SFO,JFK,Economy,Y,AA,AA100,387.20,,,,,,,,,,
+TRIP-2024-002,BK-100005,EMP-0892,Marcus Lee,Engineering,CC-7720,HOTEL,,,,,,,,,2024-01-22,2024-01-24,2,Marriott Marquis,New York,US,389.00,778.00,,,Marriott
+TRIP-2024-002,BK-100006,EMP-0892,Marcus Lee,Engineering,CC-7720,CAR,2024-01-24,,,,,,,,,,,,,,,Intermediate Car,312,Enterprise Rent-A-Car
+TRIP-2024-003,BK-100007,EMP-1102,Priya Nair,Finance,CC-9001,AIR,2024-02-05,BOS,LAX,Premium Economy,W,UA,UA571,1140.00,,,,,,,,,,
+TRIP-2024-003,BK-100008,EMP-1102,Priya Nair,Finance,CC-9001,HOTEL,,,,,,,,,2024-02-05,2024-02-08,3,Loews Hollywood Hotel,Los Angeles,US,259.00,777.00,,,Loews Hotels
+TRIP-2024-004,BK-100009,EMP-0234,David Kim,HR,CC-5500,AIR,2024-02-12,DFW,ATL,Economy,K,DL,DL1843,224.00,,,,,,,,,,
+TRIP-2024-004,BK-100010,EMP-0234,David Kim,HR,CC-5500,CAR,2024-02-12,,,,,,,,,,,,,,,Full-size Car,285,Hertz
+TRIP-2024-005,BK-100011,EMP-0558,Amara Osei,Business Dev,CC-8810,AIR,2024-02-20,JFK,CDG,Business,C,AF,AF007,5890.00,,,,,,,,,,
+TRIP-2024-005,BK-100012,EMP-0558,Amara Osei,Business Dev,CC-8810,HOTEL,,,,,,,,,2024-02-20,2024-02-24,4,Hotel de Crillon,Paris,FR,620.00,2480.00,,,Rosewood Hotels
+TRIP-2024-005,BK-100013,EMP-0558,Amara Osei,Business Dev,CC-8810,AIR,2024-02-24,CDG,JFK,Business,C,AF,AF006,5890.00,,,,,,,,,,
+TRIP-2024-006,BK-100014,EMP-0710,Lisa Chen,Product,CC-7720,AIR,2024-03-05,LAX,NRT,,Y,NH,NH106,1280.00,,,,,,,,,,
+TRIP-2024-006,BK-100015,EMP-0710,Lisa Chen,Product,CC-7720,HOTEL,,,,,,,,,2024-03-05,2024-03-08,3,Park Hyatt Tokyo,Tokyo,JP,380.00,1140.00,,,Park Hyatt
+TRIP-2024-007,BK-100016,EMP-0334,Tom Walsh,Operations,CC-5500,TAXI,2024-03-10,,,,,,,,,,,,,,,,,45,Uber
+TRIP-2024-007,BK-100017,EMP-0334,Tom Walsh,Operations,CC-5500,AIR,2024-03-12,ATL,BOS,Economy,M,DL,DL1921,318.00,,,,,,,,,,
+TRIP-2024-008,BK-100018,EMP-0441,Sarah Johnson,Sales,CC-8810,AIR,2024-03-18,ORD,DXB,First,F,EK,EK235,9850.00,,,,,,,,,,
+TRIP-2024-008,BK-100019,EMP-0441,Sarah Johnson,Sales,CC-8810,HOTEL,,,,,,,,,2024-03-18,2024-03-22,4,Burj Al Arab,Dubai,AE,2200.00,8800.00,,,Jumeirah Group
+TRIP-2024-008,BK-100020,EMP-0441,Sarah Johnson,Sales,CC-8810,AIR,2024-03-22,DXB,ORD,First,F,EK,EK236,9850.00,,,,,,,,,,
