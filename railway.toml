@@ -1,0 +1,7 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+startCommand = "cd backend && python manage.py migrate && python manage.py seed_demo && gunicorn breatheesg.wsgi --log-file -"
+healthcheckPath = "/api/auth/me/"
+restartPolicyType = "ON_FAILURE"
