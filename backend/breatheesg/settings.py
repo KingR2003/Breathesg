@@ -111,10 +111,12 @@ REST_FRAMEWORK = {
 }
 
 # CORS
-CORS_ALLOWED_ORIGINS = os.environ.get(
-    'CORS_ALLOWED_ORIGINS',
-    'http://localhost:5173,http://localhost:3000'
-).split(',')
+CORS_ALLOWED_ORIGINS = [
+    origin.rstrip('/') for origin in os.environ.get(
+        'CORS_ALLOWED_ORIGINS',
+        'http://localhost:5173,http://localhost:3000'
+    ).split(',')
+]
 CORS_ALLOW_CREDENTIALS = True
 
 # File uploads
